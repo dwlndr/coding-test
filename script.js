@@ -8,13 +8,15 @@
 //   jumlah();
 // }
 
-// function jumlah() {
+// function jumlah() {    
+//     let total = 0;
 //   for (let i = 0; i < arr.length; i++) {
-//     total += arr[i];
+//     total = total + arr[i];
 //   }
 //   return total;
 //   document.getElementById("total").textContent = total;
 // }
+arr1 = [1,2,3,4,5]
 
 function jumlaharray(array){
     let total = 0
@@ -24,4 +26,4 @@ function jumlaharray(array){
     return total;
 }
 
-console.log(jumlaharray([1,2,3,4,5]));
+console.log(jumlaharray(arr1))
