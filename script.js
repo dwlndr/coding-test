@@ -4,14 +4,14 @@ function addArray() {
 
     if (number !== '') {
         arr.push(Number(number));
-
-
     }
+    jumlah()
 }
 
 function jumlah() {
     for (let i = 0; i < array.length; i++) {
-        let total += array[i];
-        
+        total += array[i];
     }
+    return total;
+    document.getElementById('total').textContent = total;
 }
