@@ -16,7 +16,9 @@
 //   return total;
 //   document.getElementById("total").textContent = total;
 // }
+
 arr1 = [1,2,3,4,5]
+arr2 = [1,2]
 
 function jumlaharray(array){
     let total = 0
@@ -27,3 +29,4 @@ function jumlaharray(array){
 }
 
 console.log(jumlaharray(arr1))
+console.log(jumlaharray(arr2))
